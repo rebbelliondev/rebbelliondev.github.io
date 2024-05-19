@@ -4,16 +4,15 @@ body {
     font-family: Inter;
     text-align: center;
     font-weight: lighter;
-    background:linear-gradient(to left, rgb(255, 0, 242), rgb(103, 3, 112))
+    background:linear-gradient(to left, rgb(74, 11, 133), rgb(103, 3, 112))
 }
 
 .div1 {
     font-size: 95px;
     font-weight:bolder;
-    padding-top:1005px;
+    padding-top:805px;
     padding-right:800px;
     padding-left:800px;
-    padding: bottom 1005px;
     border-radius: 25px;
     background: linear-gradient(to right, #e7b7e9, #9e06f7);
     -webkit-text-fill-color: transparent;
@@ -32,9 +31,23 @@ body {
     background-clip: text;
 }
 
+.div1::after {
+    transition-duration: 0.6s;
+    font-size: 95px;
+    font-weight:bolder;
+    padding-top:805px;
+    padding-right:800px;
+    padding-left:800px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #e7b7e9, #9e06f7);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 
 p {
     font-weight:bolder;
+    font-size:80px;
     background: linear-gradient(to right, #9e06f7, #e7b7e9);
     -webkit-text-fill-color: transparent;
     background-clip:text;
@@ -44,4 +57,13 @@ p:hover {
     transition-duration: 0.9s;
     font-weight:800;
     font-size:100px;
+}
+
+p1::after {
+    transition-duration: 0.9s;
+    font-weight:bolder;
+    font-size:80px;
+    background: linear-gradient(to right, #9e06f7, #e7b7e9);
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
 }
