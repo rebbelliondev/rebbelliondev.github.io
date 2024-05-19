@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 const w = window.innerWidth;
 const h = window.innerHeight;
 
-var gradient = ctx.createLinearGradient()
+var gradient = ctx.createLinearGradient(0,0, canvas.width, 0)
     gradient.addColorStop(0, "rgb(255, 127, 80)")
     gradient.addColorStop(1, "rgb(199, 0, 57)")
     gradient.fillStyle =  gradient ;
@@ -13,7 +13,7 @@ const cols = Math.floor(w / 20) + 1;
 const ypos = Array(cols).fill(0);
 
 function matrix () {
-    var gradient = ctx.createLinearGradient()
+    var gradient = ctx.createLinearGradient(0,0, canvas.width, 0)
     gradient.addColorStop(0, "rgb(255, 127, 80)")
     gradient.addColorStop(1, "rgb(199, 0, 57)")
     gradient.fillStyle =  gradient ;
