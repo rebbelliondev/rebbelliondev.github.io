@@ -10,10 +10,10 @@ body {
 .div1 {
     font-size: 95px;
     font-weight:bolder;
-    padding-top:80px;
-    padding-right:80px;
-    padding-left:80px;
-    padding-bottom:80px;
+    padding-top:1005px;
+    padding-right:800px;
+    padding-left:800px;
+    padding: bottom 1005px;
     border-radius: 25px;
     background: linear-gradient(to right, #e7b7e9, #9e06f7);
     -webkit-text-fill-color: transparent;
