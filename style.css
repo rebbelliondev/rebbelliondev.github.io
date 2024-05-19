@@ -26,7 +26,6 @@ body {
 .div1:hover {
     
     font-size: 55px;
-    font-style: italic;
     background: linear-gradient(to right, #9e06f7, #e7b7e9);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -47,4 +46,47 @@ p:hover {
     
     font-weight:800;
     font-size:35px;
+}
+
+
+
+.navbar {
+    background-image:  linear-gradient(to right, rgb(241, 132, 255), rgb(233, 179, 233));
+    border-radius: 10px;
+    transition:all 0.5s ease-in-out;
+    padding:15px;
+}
+
+.navbar:hover {
+    border-radius:15px;
+    padding:17px;
+
+}
+
+.navbar a {
+    color:white;
+    font-size: medium;
+    font-weight: 700;
+    
+    transition: all 0.5s ease-in-out;
+    text-decoration:none;
+
+}
+
+.navbar a:hover{
+    font-weight:900;
+    font-size: large;
+    text-decoration:none;
+    text-shadow:2px 2px #ac5cf7;
+}
+
+.navbar a[href="active"] {
+    text-shadow:2px 3px #420f72;
+    padding: 15px;
+    background:linear-gradient(to right, rgb(146, 55, 231), rgb(124, 175, 241));
+    border-radius: 10px;
+}
+
+.navbar a[href="active"]:hover {
+    padding: 17px;
 }
