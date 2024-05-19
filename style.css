@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+
+h1:hover {
+    transition-duration:0.6s;
+    font-size: medium;
+    font-style: oblique;
+}
