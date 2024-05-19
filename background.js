@@ -1,21 +1,26 @@
 const canvas = document.getElementById('background');
 const ctx = canvas.getContext('2d');
 
-const w = canvas.width = document.body.offsetWidth;
-const h = canvas.height = document.body.offsetHeight;
+const w = window.innerWidth;
+const h = window.innerHeight;
 
-ctx.fillStyle = '#de3163';
+var gradient = ctx.createLinearGradient()
+    gradient.addColorStop(0, "rgb(255, 127, 80)")
+    gradient.addColorStop(1, "rgb(199, 0, 57)")
+    gradient.fillStyle =  gradient ;
 ctx.fillRect(0,0,w,h)
 const cols = Math.floor(w / 20) + 1;
 const ypos = Array(cols).fill(0);
 
 function matrix () {
-    // Draw a semitransparent black rectangle on top of previous drawing
-    ctx.fillStyle = '#de3163';
+    var gradient = ctx.createLinearGradient()
+    gradient.addColorStop(0, "rgb(255, 127, 80)")
+    gradient.addColorStop(1, "rgb(199, 0, 57)")
+    gradient.fillStyle =  gradient ;
     ctx.fillRect(0, 0, w, h);
   
     // Set color to green and font to 15pt monospace in the drawing context
-    ctx.fillStyle = '#ff5733';
+    ctx.fillStyle = gradient;
     ctx.font = '15pt Inter';
   
     // for each column put a random character at the end
@@ -35,4 +40,4 @@ function matrix () {
     });
   }
 
-  setInterval(matrix, 5);
+  setInterval(matrix, 50);
