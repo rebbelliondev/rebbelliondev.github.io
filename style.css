@@ -10,7 +10,7 @@ body {
 .div1 {
     font-size: 45px;
     font-weight:bolder;
-    padding-top:35px;
+    padding-top:75px;
     padding-right:800px;
     padding-left:800px;
     border-radius: 25px;
@@ -37,7 +37,7 @@ body {
 p {
     transition: all 0.9s ease-in-out;
     font-weight:bolder;
-    font-size:40px;
+    font-size:25px;
     background: linear-gradient(to right, #9e06f7, #e7b7e9);
     -webkit-text-fill-color: transparent;
     background-clip:text;
@@ -46,5 +46,5 @@ p {
 p:hover {
     
     font-weight:800;
-    font-size:50px;
+    font-size:35px;
 }
