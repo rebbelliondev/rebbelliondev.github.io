@@ -25,7 +25,7 @@ body {
 
 .div1:hover {
     transition-duration:0.6s;
-    font-size: 205px;
+    font-size: 105px;
     font-style: italic;
     background: linear-gradient(to right, #9e06f7, #e7b7e9);
     -webkit-text-fill-color: transparent;
@@ -33,14 +33,14 @@ body {
 }
 
 
-p1 {
+p {
     font-weight:bolder;
     background: linear-gradient(to right, #9e06f7, #e7b7e9);
     -webkit-text-fill-color: transparent;
     background-clip:text;
 }
 
-p1:hover {
+p:hover {
     transition-duration: 0.9s;
     font-weight:800;
     font-size:100px;
