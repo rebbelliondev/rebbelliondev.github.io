@@ -2,6 +2,9 @@
 
 body {
     font-family: Inter;
+    text-align: center;
+    font-weight: lighter;
+    background:linear-gradient(to left, rgb(74, 11, 133), rgb(103, 3, 112))
 }
 
 .div1 {
